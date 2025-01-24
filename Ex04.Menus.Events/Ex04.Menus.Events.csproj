@@ -44,15 +44,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="MainMenu.cs" />
-    <Compile Include="MethodsHandler.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SubMenu.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\Ex04.Menus.Interfaces\Ex04.Menus.Interfaces.csproj">
-      <Project>{94ed62d8-747e-433b-a441-1a70df4a6c68}</Project>
-      <Name>Ex04.Menus.Interfaces</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

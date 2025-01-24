@@ -1,12 +1,14 @@
 ﻿using System;
 
-namespace Ex04.Menus.Events
+namespace Ex04.Menus.Tests
 {
     public class MethodsHandler
     {
         public void ShowVersion()
         {
             Console.WriteLine("App version 25.1.4.5480");
+            Console.WriteLine("Press any key to continue...");
+            Console.ReadKey();
         }
 
         public void CountLowercaseLetters()
@@ -24,6 +26,8 @@ namespace Ex04.Menus.Events
             }
 
             Console.WriteLine($"There are {count} lowercase letters in your text");
+            Console.WriteLine("Press any key to continue...");
+            Console.ReadKey();
         }
 
         public void ShowCurrentDate()
@@ -32,6 +36,8 @@ namespace Ex04.Menus.Events
             string dateOnly = currentDateTime.ToString("dd/MM/yyyy");
 
             Console.WriteLine($"Current date is {dateOnly}");
+            Console.WriteLine("Press any key to continue...");
+            Console.ReadKey();
         }
 
         public void ShowCurrentTime()
@@ -40,6 +46,8 @@ namespace Ex04.Menus.Events
             string timeOnly = currentDateTime.ToString("HH:mm:ss");
 
             Console.WriteLine($"Current time is {timeOnly}");
+            Console.WriteLine("Press any key to continue...");
+            Console.ReadKey();
         }
     }
 }

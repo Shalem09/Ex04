@@ -20,8 +20,8 @@ namespace Ex04.Menus.Events
         public void Show()
         {
             Console.Clear();
-            Console.WriteLine(m_SubMenuTitle);
-            Console.WriteLine(new string('=', m_SubMenuTitle.Length));
+            Console.WriteLine($"** {m_SubMenuTitle} **");
+            Console.WriteLine(new string('-', m_SubMenuTitle.Length + 6));
 
             for(int i = 0; i < r_MenuItems.Count; i++)
             {
@@ -29,9 +29,7 @@ namespace Ex04.Menus.Events
             }
 
             Console.WriteLine("0. Back");
-            Console.WriteLine(new string('=', m_SubMenuTitle.Length));
-
-            Console.Write("Please choose an option: ");
+            Console.Write($"Please choose an option (1 - {r_MenuItems.Count} or 0 to go back):{Environment.NewLine}");
             int choice;
             while(!int.TryParse(Console.ReadLine(), out choice) || choice < 0 || choice > r_MenuItems.Count)
             {

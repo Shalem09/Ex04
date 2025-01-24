@@ -43,14 +43,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="IActionable.cs" />
-    <Compile Include="IMainMenuInterface.cs" />
-    <Compile Include="IMenuItemInterface.cs" />
-    <Compile Include="IMenuItemFactory.cs" />
-    <Compile Include="NoOpAction.cs" />
+    <Folder Include="Properties\" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Properties\" />
+    <Compile Include="IMenu.cs" />
+    <Compile Include="IMenuItem.cs" />
+    <Compile Include="MainMenu.cs" />
+    <Compile Include="MenuItem.cs" />
+    <Compile Include="SubMenu.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
