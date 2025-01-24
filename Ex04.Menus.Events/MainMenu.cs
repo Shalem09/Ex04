@@ -4,7 +4,9 @@ using System.Collections.Generic;
 public class MainMenu
 {
     public string Title { get; }
+
     private readonly List<string> r_MenuItems;
+
     public event Action<int> MainMenuOptionSelected;
 
     public MainMenu(string i_Title, List<string> i_MenuItems)
@@ -17,9 +19,9 @@ public class MainMenu
     {
         Console.Clear();
         Console.WriteLine(Title);
-        Console.WriteLine(new string('=', Title.Length));   
+        Console.WriteLine(new string('=', Title.Length));
 
-        for (int i = 0; i < r_MenuItems.Count; i++)
+        for(int i = 0; i < r_MenuItems.Count; i++)
         {
             Console.WriteLine($"{i + 1}. {r_MenuItems[i]}");
         }
@@ -29,7 +31,7 @@ public class MainMenu
 
         Console.Write("Please choose an option: ");
         int choice;
-        while (!int.TryParse(Console.ReadLine(), out choice) || choice < 0 || choice > r_MenuItems.Count)
+        while(!int.TryParse(Console.ReadLine(), out choice) || choice < 0 || choice > r_MenuItems.Count)
         {
             Console.Write("Invalid choice. Please enter a valid option: ");
         }

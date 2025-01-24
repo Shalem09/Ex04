@@ -1,6 +1,5 @@
 ﻿using System;
 
-
 namespace Ex04.Menus.Events
 {
     public class MethodsHandler
@@ -8,7 +7,6 @@ namespace Ex04.Menus.Events
         public void ShowVersion()
         {
             Console.WriteLine("App version 25.1.4.5480");
-
         }
 
         public void CountLowercaseLetters()
@@ -17,9 +15,9 @@ namespace Ex04.Menus.Events
             string input = Console.ReadLine();
             int count = 0;
 
-            foreach (char c in input)
+            foreach(char c in input)
             {
-                if (char.IsLower(c))
+                if(char.IsLower(c))
                 {
                     count++;
                 }
@@ -44,5 +42,4 @@ namespace Ex04.Menus.Events
             Console.WriteLine($"Current time is {timeOnly}");
         }
     }
-
 }
