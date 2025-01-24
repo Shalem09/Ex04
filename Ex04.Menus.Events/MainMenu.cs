@@ -1,26 +1,39 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace Ex04.Menus.Events
+public class MainMenu
 {
-    public class MainMenu
+    public string Title { get; }
+    private readonly List<string> r_MenuItems;
+    public event Action<int> MainMenuOptionSelected;
+
+    public MainMenu(string i_Title, List<string> i_MenuItems)
     {
-        public event Action<int> MainMenuOptionSelected;
+        Title = i_Title;
+        r_MenuItems = i_MenuItems;
+    }
 
-        public void Show()
+    public void Show()
+    {
+        Console.Clear();
+        Console.WriteLine(Title);
+        Console.WriteLine(new string('=', Title.Length));   
+
+        for (int i = 0; i < r_MenuItems.Count; i++)
         {
-            Console.WriteLine("** Events Main Menu **");
-            Console.WriteLine("--------------------");
-            Console.WriteLine("1. Letters and Version");
-            Console.WriteLine("2. Date and Time");
-            Console.WriteLine("0. Exit");
-
-            Console.Write("Choose an option: ");
-            int choice = int.Parse(Console.ReadLine());
-            MainMenuOptionSelected?.Invoke(choice); // שידור האירוע
+            Console.WriteLine($"{i + 1}. {r_MenuItems[i]}");
         }
+
+        Console.WriteLine("0. Exit");
+        Console.WriteLine(new string('=', Title.Length));
+
+        Console.Write("Please choose an option: ");
+        int choice;
+        while (!int.TryParse(Console.ReadLine(), out choice) || choice < 0 || choice > r_MenuItems.Count)
+        {
+            Console.Write("Invalid choice. Please enter a valid option: ");
+        }
+
+        MainMenuOptionSelected?.Invoke(choice);
     }
 }

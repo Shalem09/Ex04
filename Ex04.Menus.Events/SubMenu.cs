@@ -1,42 +1,45 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Ex04.Menus.Events
 {
+    using System;
+    using System.Collections.Generic;
+
     public class SubMenu
     {
+        public string m_SubMenuTitle { get; }
+        private readonly List<string> r_MenuItems;
         public event Action<int> SubMenuOptionSelected;
 
-        public void HandleMainMenuSelection(int i_Option)
+        public SubMenu(string i_Title, List<string> i_MenuItems)
         {
-            if (i_Option == 1) // Letters and Version
-            {
-                Console.WriteLine("** Letters and Version **");
-                Console.WriteLine("--------------------");
-                Console.WriteLine("1. Show Version");
-                Console.WriteLine("2. Count Lowercase Letters");
-                Console.WriteLine("0. Back");
+            m_SubMenuTitle = i_Title;
+            r_MenuItems = i_MenuItems;
+        }
 
-                Console.Write("Choose an option: ");
-                int choice = int.Parse(Console.ReadLine());
-                SubMenuOptionSelected?.Invoke(choice); // שידור האירוע
-            }
-            else if (i_Option == 2) // Date and Time
-            {
-                Console.WriteLine("** Date and Time **");
-                Console.WriteLine("--------------------");
-                Console.WriteLine("1. Show Current Date");
-                Console.WriteLine("2. Show Current Time");
-                Console.WriteLine("0. Back");
+        public void Show()
+        {
+            Console.Clear();
+            Console.WriteLine(m_SubMenuTitle);
+            Console.WriteLine(new string('=', m_SubMenuTitle.Length));
 
-                Console.Write("Choose an option: ");
-                int choice = int.Parse(Console.ReadLine());
-                SubMenuOptionSelected?.Invoke(choice); // שידור האירוע
+            for (int i = 0; i < r_MenuItems.Count; i++)
+            {
+                Console.WriteLine($"{i + 1}. {r_MenuItems[i]}");
             }
+
+            Console.WriteLine("0. Back");
+            Console.WriteLine(new string('=', m_SubMenuTitle.Length));
+
+            Console.Write("Please choose an option: ");
+            int choice;
+            while (!int.TryParse(Console.ReadLine(), out choice) || choice < 0 || choice > r_MenuItems.Count)
+            {
+                Console.Write("Invalid choice. Please enter a valid option: ");
+            }
+
+            SubMenuOptionSelected?.Invoke(choice);
         }
     }
-
 }

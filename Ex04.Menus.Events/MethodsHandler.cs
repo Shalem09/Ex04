@@ -1,9 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Reflection;
-using System.Text;
-using System.Threading.Tasks;
+
 
 namespace Ex04.Menus.Events
 {
@@ -11,7 +7,8 @@ namespace Ex04.Menus.Events
     {
         public void ShowVersion()
         {
-            Console.WriteLine("Version 1.0");
+            Console.WriteLine("App version 25.1.4.5480");
+
         }
 
         public void CountLowercaseLetters()
@@ -28,17 +25,23 @@ namespace Ex04.Menus.Events
                 }
             }
 
-            Console.WriteLine($"Lowercase letters count: {count}");
+            Console.WriteLine($"There are {count} lowercase letters in your text");
         }
 
         public void ShowCurrentDate()
         {
-            Console.WriteLine($"Current Date: {DateTime.Now.ToShortDateString()}");
+            DateTime currentDateTime = DateTime.Now;
+            string dateOnly = currentDateTime.ToString("dd/MM/yyyy");
+
+            Console.WriteLine($"Current date is {dateOnly}");
         }
 
         public void ShowCurrentTime()
         {
-            Console.WriteLine($"Current Time: {DateTime.Now.ToShortTimeString()}");
+            DateTime currentDateTime = DateTime.Now;
+            string timeOnly = currentDateTime.ToString("HH:mm:ss");
+
+            Console.WriteLine($"Current time is {timeOnly}");
         }
     }
 
