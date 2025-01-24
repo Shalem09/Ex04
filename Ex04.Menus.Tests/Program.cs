@@ -8,9 +8,48 @@ namespace Ex04.Menus.Tests
     {
         private static void Main()
         {
-            MainMenuItemEvent mainMenu = createMainMenu();
-            mainMenu.Show();
+            MainMenu mainMenu = new MainMenu();
+            SubMenu subMenu = new SubMenu();
+            MethodsHandler methodsHandler = new MethodsHandler();
+
+            // חיבור התפריט הראשי לתת-תפריט
+            mainMenu.MainMenuOptionSelected += subMenu.HandleMainMenuSelection;
+
+            // חיבור תת-תפריט למתודות
+            subMenu.SubMenuOptionSelected += HandleSubMenuOptionSelected;
+
+            while (true)
+            {
+                mainMenu.Show();
+            }
+
+
+            //MainMenuItemEvent mainMenu = createMainMenu();
+            //mainMenu.Show();
         }
+
+
+        private static void HandleSubMenuOptionSelected(int i_Choice)
+        {
+            MethodsHandler methodsHandler = new MethodsHandler();
+
+            switch (i_Choice)
+            {
+                case 1:
+                    methodsHandler.ShowVersion();
+                    break;
+                case 2:
+                    methodsHandler.CountLowercaseLetters();
+                    break;
+                case 0:
+                    Console.WriteLine("Returning to Main Menu...");
+                    break;
+                default:
+                    Console.WriteLine("Invalid option.");
+                    break;
+            }
+        }
+
 
         private static MainMenuItemEvent createMainMenu()
         {

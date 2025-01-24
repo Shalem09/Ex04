@@ -7,20 +7,32 @@
       "RelativeMoniker": "D:0:0:{0432657E-FE37-4925-8269-B225929AC037}|Ex04.Menus.Tests\\Ex04.Menus.Tests.csproj|solutionrelative:ex04.menus.tests\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{5F2B32C2-304D-4D71-AD51-E01126EBB02D}|Ex04.Menus.Events\\Ex04.Menus.Events.csproj|c:\\users\\robix\\onedrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\ex04 tabib\\a25-ex04-orshalem-315900845-ortabibian-314919994-master\\ex04.menus.events\\mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F2B32C2-304D-4D71-AD51-E01126EBB02D}|Ex04.Menus.Events\\Ex04.Menus.Events.csproj|solutionrelative:ex04.menus.events\\mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F2B32C2-304D-4D71-AD51-E01126EBB02D}|Ex04.Menus.Events\\Ex04.Menus.Events.csproj|c:\\users\\robix\\onedrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\ex04 tabib\\a25-ex04-orshalem-315900845-ortabibian-314919994-master\\ex04.menus.events\\submenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F2B32C2-304D-4D71-AD51-E01126EBB02D}|Ex04.Menus.Events\\Ex04.Menus.Events.csproj|solutionrelative:ex04.menus.events\\submenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{5F2B32C2-304D-4D71-AD51-E01126EBB02D}|Ex04.Menus.Events\\Ex04.Menus.Events.csproj|C:\\Users\\robix\\OneDrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\Ex04 Tabib\\A25-Ex04-OrShalem-315900845-OrTabibian-314919994-master\\ex04.menus.events\\submenuitemevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5F2B32C2-304D-4D71-AD51-E01126EBB02D}|Ex04.Menus.Events\\Ex04.Menus.Events.csproj|solutionrelative:ex04.menus.events\\submenuitemevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5F2B32C2-304D-4D71-AD51-E01126EBB02D}|Ex04.Menus.Events\\Ex04.Menus.Events.csproj|C:\\Users\\robix\\OneDrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\Ex04 Tabib\\A25-Ex04-OrShalem-315900845-OrTabibian-314919994-master\\ex04.menus.events\\menuitemeventfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5F2B32C2-304D-4D71-AD51-E01126EBB02D}|Ex04.Menus.Events\\Ex04.Menus.Events.csproj|solutionrelative:ex04.menus.events\\menuitemeventfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5F2B32C2-304D-4D71-AD51-E01126EBB02D}|Ex04.Menus.Events\\Ex04.Menus.Events.csproj|c:\\users\\robix\\onedrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\ex04 tabib\\a25-ex04-orshalem-315900845-ortabibian-314919994-master\\ex04.menus.events\\methodshandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F2B32C2-304D-4D71-AD51-E01126EBB02D}|Ex04.Menus.Events\\Ex04.Menus.Events.csproj|solutionrelative:ex04.menus.events\\methodshandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F2B32C2-304D-4D71-AD51-E01126EBB02D}|Ex04.Menus.Events\\Ex04.Menus.Events.csproj|C:\\Users\\robix\\OneDrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\Ex04 Tabib\\A25-Ex04-OrShalem-315900845-OrTabibian-314919994-master\\ex04.menus.events\\mainmenuitemevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F2B32C2-304D-4D71-AD51-E01126EBB02D}|Ex04.Menus.Events\\Ex04.Menus.Events.csproj|solutionrelative:ex04.menus.events\\mainmenuitemevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5F2B32C2-304D-4D71-AD51-E01126EBB02D}|Ex04.Menus.Events\\Ex04.Menus.Events.csproj|C:\\Users\\robix\\OneDrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\Ex04 Tabib\\A25-Ex04-OrShalem-315900845-OrTabibian-314919994-master\\ex04.menus.events\\menuitemevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5F2B32C2-304D-4D71-AD51-E01126EBB02D}|Ex04.Menus.Events\\Ex04.Menus.Events.csproj|solutionrelative:ex04.menus.events\\menuitemevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5F2B32C2-304D-4D71-AD51-E01126EBB02D}|Ex04.Menus.Events\\Ex04.Menus.Events.csproj|C:\\Users\\robix\\OneDrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\Ex04 Tabib\\A25-Ex04-OrShalem-315900845-OrTabibian-314919994-master\\ex04.menus.events\\mainmenuitemevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5F2B32C2-304D-4D71-AD51-E01126EBB02D}|Ex04.Menus.Events\\Ex04.Menus.Events.csproj|solutionrelative:ex04.menus.events\\mainmenuitemevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5F2B32C2-304D-4D71-AD51-E01126EBB02D}|Ex04.Menus.Events\\Ex04.Menus.Events.csproj|C:\\Users\\robix\\OneDrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\Ex04 Tabib\\A25-Ex04-OrShalem-315900845-OrTabibian-314919994-master\\ex04.menus.events\\menuitemeventfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F2B32C2-304D-4D71-AD51-E01126EBB02D}|Ex04.Menus.Events\\Ex04.Menus.Events.csproj|solutionrelative:ex04.menus.events\\menuitemeventfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,7 +42,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,31 +54,46 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "SubMenuItemEvent.cs",
-              "DocumentMoniker": "C:\\Users\\robix\\OneDrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\Ex04 Tabib\\A25-Ex04-OrShalem-315900845-OrTabibian-314919994-master\\Ex04.Menus.Events\\SubMenuItemEvent.cs",
-              "RelativeDocumentMoniker": "Ex04.Menus.Events\\SubMenuItemEvent.cs",
-              "ToolTip": "C:\\Users\\robix\\OneDrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\Ex04 Tabib\\A25-Ex04-OrShalem-315900845-OrTabibian-314919994-master\\Ex04.Menus.Events\\SubMenuItemEvent.cs",
-              "RelativeToolTip": "Ex04.Menus.Events\\SubMenuItemEvent.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAkAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "MethodsHandler.cs",
+              "DocumentMoniker": "C:\\Users\\robix\\OneDrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\Ex04 Tabib\\A25-Ex04-OrShalem-315900845-OrTabibian-314919994-master\\Ex04.Menus.Events\\MethodsHandler.cs",
+              "RelativeDocumentMoniker": "Ex04.Menus.Events\\MethodsHandler.cs",
+              "ToolTip": "C:\\Users\\robix\\OneDrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\Ex04 Tabib\\A25-Ex04-OrShalem-315900845-OrTabibian-314919994-master\\Ex04.Menus.Events\\MethodsHandler.cs",
+              "RelativeToolTip": "Ex04.Menus.Events\\MethodsHandler.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAgwCUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-22T17:34:35.688Z"
+              "WhenOpened": "2025-01-24T08:32:56.217Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "MenuItemEventFactory.cs",
-              "DocumentMoniker": "C:\\Users\\robix\\OneDrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\Ex04 Tabib\\A25-Ex04-OrShalem-315900845-OrTabibian-314919994-master\\Ex04.Menus.Events\\MenuItemEventFactory.cs",
-              "RelativeDocumentMoniker": "Ex04.Menus.Events\\MenuItemEventFactory.cs",
-              "ToolTip": "C:\\Users\\robix\\OneDrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\Ex04 Tabib\\A25-Ex04-OrShalem-315900845-OrTabibian-314919994-master\\Ex04.Menus.Events\\MenuItemEventFactory.cs",
-              "RelativeToolTip": "Ex04.Menus.Events\\MenuItemEventFactory.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAmAAAAAAAAAA==",
+              "Title": "SubMenu.cs",
+              "DocumentMoniker": "C:\\Users\\robix\\OneDrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\Ex04 Tabib\\A25-Ex04-OrShalem-315900845-OrTabibian-314919994-master\\Ex04.Menus.Events\\SubMenu.cs",
+              "RelativeDocumentMoniker": "Ex04.Menus.Events\\SubMenu.cs",
+              "ToolTip": "C:\\Users\\robix\\OneDrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\Ex04 Tabib\\A25-Ex04-OrShalem-315900845-OrTabibian-314919994-master\\Ex04.Menus.Events\\SubMenu.cs",
+              "RelativeToolTip": "Ex04.Menus.Events\\SubMenu.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAACQAAABGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-22T16:33:36.248Z"
+              "WhenOpened": "2025-01-24T08:32:21.88Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
+              "Title": "MainMenu.cs",
+              "DocumentMoniker": "C:\\Users\\robix\\OneDrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\Ex04 Tabib\\A25-Ex04-OrShalem-315900845-OrTabibian-314919994-master\\Ex04.Menus.Events\\MainMenu.cs",
+              "RelativeDocumentMoniker": "Ex04.Menus.Events\\MainMenu.cs",
+              "ToolTip": "C:\\Users\\robix\\OneDrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\Ex04 Tabib\\A25-Ex04-OrShalem-315900845-OrTabibian-314919994-master\\Ex04.Menus.Events\\MainMenu.cs",
+              "RelativeToolTip": "Ex04.Menus.Events\\MainMenu.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-24T08:31:13.806Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "MenuItemEvent.cs",
               "DocumentMoniker": "C:\\Users\\robix\\OneDrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\Ex04 Tabib\\A25-Ex04-OrShalem-315900845-OrTabibian-314919994-master\\Ex04.Menus.Events\\MenuItemEvent.cs",
               "RelativeDocumentMoniker": "Ex04.Menus.Events\\MenuItemEvent.cs",
@@ -74,19 +101,21 @@
               "RelativeToolTip": "Ex04.Menus.Events\\MenuItemEvent.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-22T16:33:32.096Z"
+              "WhenOpened": "2025-01-22T16:33:32.096Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "MainMenuItemEvent.cs",
               "DocumentMoniker": "C:\\Users\\robix\\OneDrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\Ex04 Tabib\\A25-Ex04-OrShalem-315900845-OrTabibian-314919994-master\\Ex04.Menus.Events\\MainMenuItemEvent.cs",
               "RelativeDocumentMoniker": "Ex04.Menus.Events\\MainMenuItemEvent.cs",
               "ToolTip": "C:\\Users\\robix\\OneDrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\Ex04 Tabib\\A25-Ex04-OrShalem-315900845-OrTabibian-314919994-master\\Ex04.Menus.Events\\MainMenuItemEvent.cs",
               "RelativeToolTip": "Ex04.Menus.Events\\MainMenuItemEvent.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAABFAAAAAAAAAA==",
+              "ViewState": "AgIAABUAAAAAAAAAAAAiwCMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-22T16:33:18.941Z"
+              "WhenOpened": "2025-01-22T16:33:18.941Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -96,9 +125,35 @@
               "RelativeDocumentMoniker": "Ex04.Menus.Tests\\Program.cs",
               "ToolTip": "C:\\Users\\robix\\OneDrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\Ex04 Tabib\\A25-Ex04-OrShalem-315900845-OrTabibian-314919994-master\\Ex04.Menus.Tests\\Program.cs",
               "RelativeToolTip": "Ex04.Menus.Tests\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAABwAAAAAAAAAAAAcwBQAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-22T16:33:53.992Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SubMenuItemEvent.cs",
+              "DocumentMoniker": "C:\\Users\\robix\\OneDrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\Ex04 Tabib\\A25-Ex04-OrShalem-315900845-OrTabibian-314919994-master\\Ex04.Menus.Events\\SubMenuItemEvent.cs",
+              "RelativeDocumentMoniker": "Ex04.Menus.Events\\SubMenuItemEvent.cs",
+              "ToolTip": "C:\\Users\\robix\\OneDrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\Ex04 Tabib\\A25-Ex04-OrShalem-315900845-OrTabibian-314919994-master\\Ex04.Menus.Events\\SubMenuItemEvent.cs",
+              "RelativeToolTip": "Ex04.Menus.Events\\SubMenuItemEvent.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAuwD8AAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-22T17:34:35.688Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MenuItemEventFactory.cs",
+              "DocumentMoniker": "C:\\Users\\robix\\OneDrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\Ex04 Tabib\\A25-Ex04-OrShalem-315900845-OrTabibian-314919994-master\\Ex04.Menus.Events\\MenuItemEventFactory.cs",
+              "RelativeDocumentMoniker": "Ex04.Menus.Events\\MenuItemEventFactory.cs",
+              "ToolTip": "C:\\Users\\robix\\OneDrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\Ex04 Tabib\\A25-Ex04-OrShalem-315900845-OrTabibian-314919994-master\\Ex04.Menus.Events\\MenuItemEventFactory.cs",
+              "RelativeToolTip": "Ex04.Menus.Events\\MenuItemEventFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-22T16:33:36.248Z",
               "EditorCaption": ""
             }
           ]
