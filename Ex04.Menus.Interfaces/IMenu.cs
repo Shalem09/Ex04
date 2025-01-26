@@ -1,7 +1,9 @@
 ﻿namespace Ex04.Menus.Interfaces
 {
-    public interface IMenu : IMenuItem
+    public interface IMenu
     {
-        void AddItem(IMenuItem i_Item);
+        void AddItem(MenuItem i_Item);
+
+        void Show();
     }
 }

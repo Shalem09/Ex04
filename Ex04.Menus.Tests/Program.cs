@@ -15,7 +15,7 @@ namespace Ex04.Menus.Tests
 
             #region Menu with interface
 
-            Interfaces.MainMenu mainMenu = createInterfaeMainMenu(
+            Interfaces.MainMenu mainMenu = createInterfaceMainMenu(
                 out SubMenu lettersAndVersionSubInterfaceMenu,
                 out SubMenu dateAndTimeInterfaceSubMenu,
                 methodsHandler);
@@ -41,32 +41,67 @@ namespace Ex04.Menus.Tests
 
         #region Menu with interface Methods
 
-        private static Interfaces.MainMenu createInterfaeMainMenu(
-            out SubMenu o_LettersAndVersionSubMenu,
-            out SubMenu o_DateAndTimeSubMenu,
-            MethodsHandler i_MethodsHandler)
+
+        private static Interfaces.MainMenu createInterfaceMainMenu(
+    out SubMenu o_LettersAndVersionSubMenu,
+    out SubMenu o_DateAndTimeSubMenu)
         {
             string mainMenuTitle = "Interfaces Main Menu";
             Interfaces.MainMenu mainMenu = new Interfaces.MainMenu(mainMenuTitle);
 
+            // יצירת תפריט Letters and Version
             string lettersAndVersionSubMenuTitle = "Letters And Version";
             o_LettersAndVersionSubMenu = new SubMenu(lettersAndVersionSubMenuTitle);
-            (o_LettersAndVersionSubMenu as IMenu).AddItem(new MenuItem("Show Version", i_MethodsHandler.ShowVersion));
-            (o_LettersAndVersionSubMenu as IMenu).AddItem(
-                new MenuItem("Count Lowercase Letters", i_MethodsHandler.CountLowercaseLetters));
 
+            (o_LettersAndVersionSubMenu as IMenu).AddItem(
+                new MenuItem("Show Version", new Methods("ShowVersion")));
+            (o_LettersAndVersionSubMenu as IMenu).AddItem(
+                new MenuItem("Count Lowercase Letters", new Methods("CountLowercaseLetters")));
+
+            // יצירת תפריט Date and Time
             string dateAndTimeMenuTitle = "Show Current Date/Time";
             o_DateAndTimeSubMenu = new SubMenu(dateAndTimeMenuTitle);
-            (o_DateAndTimeSubMenu as IMenu).AddItem(
-                new MenuItem("Show Current Date", i_MethodsHandler.ShowCurrentDate));
-            (o_DateAndTimeSubMenu as IMenu).AddItem(
-                new MenuItem("Show Current Time", i_MethodsHandler.ShowCurrentTime));
 
+            (o_DateAndTimeSubMenu as IMenu).AddItem(
+                new MenuItem("Show Current Date", new Methods("ShowCurrentDate")));
+            (o_DateAndTimeSubMenu as IMenu).AddItem(
+                new MenuItem("Show Current Time", new Methods("ShowCurrentTime")));
+
+            // הוספת תפריטים ראשיים
             mainMenu.AddItem(o_LettersAndVersionSubMenu);
             mainMenu.AddItem(o_DateAndTimeSubMenu);
 
             return mainMenu;
         }
+
+        //private static Interfaces.MainMenu createInterfaceMainMenu(
+        //    out SubMenu o_LettersAndVersionSubMenu,
+        //    out SubMenu o_DateAndTimeSubMenu,
+        //    MethodsHandler i_MethodsHandler)
+        //{
+        //    string mainMenuTitle = "Interfaces Main Menu";
+        //    Interfaces.MainMenu mainMenu = new Interfaces.MainMenu(mainMenuTitle);
+
+        //    string lettersAndVersionSubMenuTitle = "Letters And Version";
+        //    o_LettersAndVersionSubMenu = new SubMenu(lettersAndVersionSubMenuTitle);
+
+        //    (o_LettersAndVersionSubMenu as IMenu).AddItem(new MenuItem("Show Version", i_MethodsHandler.ShowVersion));
+        //    (o_LettersAndVersionSubMenu as IMenu).AddItem(
+        //        new MenuItem("Count Lowercase Letters", i_MethodsHandler.CountLowercaseLetters));
+
+        //    string dateAndTimeMenuTitle = "Show Current Date/Time";
+        //    o_DateAndTimeSubMenu = new SubMenu(dateAndTimeMenuTitle);
+
+        //    (o_DateAndTimeSubMenu as IMenu).AddItem(
+        //        new MenuItem("Show Current Date", i_MethodsHandler.ShowCurrentDate));
+        //    (o_DateAndTimeSubMenu as IMenu).AddItem(
+        //        new MenuItem("Show Current Time", i_MethodsHandler.ShowCurrentTime));
+
+        //    mainMenu.AddItem(o_LettersAndVersionSubMenu);
+        //    mainMenu.AddItem(o_DateAndTimeSubMenu);
+
+        //    return mainMenu;
+        //}
 
         #endregion
 

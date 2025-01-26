@@ -6,6 +6,7 @@ namespace Ex04.Menus.Interfaces
     public class SubMenu : IMenu
     {
         private readonly List<MenuItem> r_MenuItems;
+        public string m_MenuTitle { get; }
 
         public SubMenu(string i_Title)
         {
@@ -13,14 +14,12 @@ namespace Ex04.Menus.Interfaces
             r_MenuItems = new List<MenuItem>();
         }
 
-        public string m_MenuTitle { get; }
-
-        void IMenu.AddItem(IMenuItem i_Item)
+        void IMenu.AddItem(MenuItem i_MenuItem)
         {
-            r_MenuItems.Add((MenuItem)i_Item);
+            r_MenuItems.Add(i_MenuItem);
         }
 
-        void IMenuItem.Execute()
+        void IMenu.Show()
         {
             bool exit = false;
 
@@ -36,8 +35,7 @@ namespace Ex04.Menus.Interfaces
                 }
 
                 Console.WriteLine("0. Back");
-                Console.Write(
-                    $"Please choose an option (1 - {r_MenuItems.Count} or 0 to go back):{Environment.NewLine}");
+                Console.Write($"Please choose an option (1 - {r_MenuItems.Count} or 0 to go back):{Environment.NewLine}");
 
                 string input = Console.ReadLine();
                 int choice;

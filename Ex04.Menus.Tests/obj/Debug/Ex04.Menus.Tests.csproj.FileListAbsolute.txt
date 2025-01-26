@@ -25,3 +25,17 @@ C:\Users\robix\OneDrive\שולחן העבודה\Ex04 Tabib\A25-Ex04-OrShalem-315
 C:\Users\robix\OneDrive\שולחן העבודה\Ex04 Tabib\A25-Ex04-OrShalem-315900845-OrTabibian-314919994-master\Ex04.Menus.Tests\obj\Debug\Ex04.Men.13E9BA6B.Up2Date
 C:\Users\robix\OneDrive\שולחן העבודה\Ex04 Tabib\A25-Ex04-OrShalem-315900845-OrTabibian-314919994-master\Ex04.Menus.Tests\obj\Debug\Ex04.Menus.Tests.exe
 C:\Users\robix\OneDrive\שולחן העבודה\Ex04 Tabib\A25-Ex04-OrShalem-315900845-OrTabibian-314919994-master\Ex04.Menus.Tests\obj\Debug\Ex04.Menus.Tests.pdb
+C:\Users\OR\Downloads\ThirdYear - Semester A\Object-Oriented Programming using C# and The .NET Framework\Ex04\Ex04.Menus.Tests\bin\Debug\Ex04.Menus.Tests.exe.config
+C:\Users\OR\Downloads\ThirdYear - Semester A\Object-Oriented Programming using C# and The .NET Framework\Ex04\Ex04.Menus.Tests\bin\Debug\Ex04.Menus.Tests.exe
+C:\Users\OR\Downloads\ThirdYear - Semester A\Object-Oriented Programming using C# and The .NET Framework\Ex04\Ex04.Menus.Tests\bin\Debug\Ex04.Menus.Tests.pdb
+C:\Users\OR\Downloads\ThirdYear - Semester A\Object-Oriented Programming using C# and The .NET Framework\Ex04\Ex04.Menus.Tests\bin\Debug\Ex04.Menus.Events.dll
+C:\Users\OR\Downloads\ThirdYear - Semester A\Object-Oriented Programming using C# and The .NET Framework\Ex04\Ex04.Menus.Tests\bin\Debug\Ex04.Menus.Interfaces.dll
+C:\Users\OR\Downloads\ThirdYear - Semester A\Object-Oriented Programming using C# and The .NET Framework\Ex04\Ex04.Menus.Tests\bin\Debug\Ex04.Menus.Events.pdb
+C:\Users\OR\Downloads\ThirdYear - Semester A\Object-Oriented Programming using C# and The .NET Framework\Ex04\Ex04.Menus.Tests\bin\Debug\Ex04.Menus.Interfaces.pdb
+C:\Users\OR\Downloads\ThirdYear - Semester A\Object-Oriented Programming using C# and The .NET Framework\Ex04\Ex04.Menus.Tests\obj\Debug\Ex04.Menus.Tests.csproj.AssemblyReference.cache
+C:\Users\OR\Downloads\ThirdYear - Semester A\Object-Oriented Programming using C# and The .NET Framework\Ex04\Ex04.Menus.Tests\obj\Debug\Ex04.Menus.Tests.Properties.Resources.resources
+C:\Users\OR\Downloads\ThirdYear - Semester A\Object-Oriented Programming using C# and The .NET Framework\Ex04\Ex04.Menus.Tests\obj\Debug\Ex04.Menus.Tests.csproj.GenerateResource.cache
+C:\Users\OR\Downloads\ThirdYear - Semester A\Object-Oriented Programming using C# and The .NET Framework\Ex04\Ex04.Menus.Tests\obj\Debug\Ex04.Menus.Tests.csproj.CoreCompileInputs.cache
+C:\Users\OR\Downloads\ThirdYear - Semester A\Object-Oriented Programming using C# and The .NET Framework\Ex04\Ex04.Menus.Tests\obj\Debug\Ex04.Menus.Tests.csproj.CopyComplete
+C:\Users\OR\Downloads\ThirdYear - Semester A\Object-Oriented Programming using C# and The .NET Framework\Ex04\Ex04.Menus.Tests\obj\Debug\Ex04.Menus.Tests.exe
+C:\Users\OR\Downloads\ThirdYear - Semester A\Object-Oriented Programming using C# and The .NET Framework\Ex04\Ex04.Menus.Tests\obj\Debug\Ex04.Menus.Tests.pdb
