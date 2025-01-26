@@ -14,9 +14,9 @@ namespace Ex04.Menus.Interfaces
             r_SubMenu = new List<SubMenu>();
         }
 
-        public void AddSubMenu(SubMenu subMenu)
+        public void AddSubMenu(SubMenu i_SubMenu)
         {
-            r_SubMenu.Add(subMenu);
+            r_SubMenu.Add(i_SubMenu);
         }
 
         public void Show()
