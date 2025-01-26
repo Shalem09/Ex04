@@ -1,6 +1,6 @@
-C:\Users\robix\OneDrive\שולחן העבודה\Ex04 Tabib\A25-Ex04-OrShalem-315900845-OrTabibian-314919994-master\Ex04.Menus.Interfaces\obj\Debug\Ex04.Menus.Interfaces.csproj.AssemblyReference.cache
-C:\Users\robix\OneDrive\שולחן העבודה\Ex04 Tabib\A25-Ex04-OrShalem-315900845-OrTabibian-314919994-master\Ex04.Menus.Interfaces\obj\Debug\Ex04.Menus.Interfaces.csproj.CoreCompileInputs.cache
 C:\Users\robix\OneDrive\שולחן העבודה\Ex04 Tabib\A25-Ex04-OrShalem-315900845-OrTabibian-314919994-master\Ex04.Menus.Interfaces\bin\Debug\Ex04.Menus.Interfaces.dll
 C:\Users\robix\OneDrive\שולחן העבודה\Ex04 Tabib\A25-Ex04-OrShalem-315900845-OrTabibian-314919994-master\Ex04.Menus.Interfaces\bin\Debug\Ex04.Menus.Interfaces.pdb
+C:\Users\robix\OneDrive\שולחן העבודה\Ex04 Tabib\A25-Ex04-OrShalem-315900845-OrTabibian-314919994-master\Ex04.Menus.Interfaces\obj\Debug\Ex04.Menus.Interfaces.csproj.AssemblyReference.cache
+C:\Users\robix\OneDrive\שולחן העבודה\Ex04 Tabib\A25-Ex04-OrShalem-315900845-OrTabibian-314919994-master\Ex04.Menus.Interfaces\obj\Debug\Ex04.Menus.Interfaces.csproj.CoreCompileInputs.cache
 C:\Users\robix\OneDrive\שולחן העבודה\Ex04 Tabib\A25-Ex04-OrShalem-315900845-OrTabibian-314919994-master\Ex04.Menus.Interfaces\obj\Debug\Ex04.Menus.Interfaces.dll
 C:\Users\robix\OneDrive\שולחן העבודה\Ex04 Tabib\A25-Ex04-OrShalem-315900845-OrTabibian-314919994-master\Ex04.Menus.Interfaces\obj\Debug\Ex04.Menus.Interfaces.pdb

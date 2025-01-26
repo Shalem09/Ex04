@@ -15,11 +15,10 @@ namespace Ex04.Menus.Tests
 
             #region Menu with interface
 
-            Interfaces.MainMenu mainMenu = createInterfaeMainMenu(
+            Interfaces.MainMenu mainMenu = createInterfaceMainMenu(
                 out SubMenu lettersAndVersionSubInterfaceMenu,
-                out SubMenu dateAndTimeInterfaceSubMenu,
-                methodsHandler);
-            (mainMenu as IMenuItem).Execute();
+                out SubMenu dateAndTimeInterfaceSubMenu);
+            mainMenu.Show();
 
             #endregion
 
@@ -41,32 +40,68 @@ namespace Ex04.Menus.Tests
 
         #region Menu with interface Methods
 
-        private static Interfaces.MainMenu createInterfaeMainMenu(
-            out SubMenu o_LettersAndVersionSubMenu,
-            out SubMenu o_DateAndTimeSubMenu,
-            MethodsHandler i_MethodsHandler)
+
+        private static Interfaces.MainMenu createInterfaceMainMenu(
+    out SubMenu o_LettersAndVersionSubMenu,
+    out SubMenu o_DateAndTimeSubMenu)
         {
             string mainMenuTitle = "Interfaces Main Menu";
             Interfaces.MainMenu mainMenu = new Interfaces.MainMenu(mainMenuTitle);
 
             string lettersAndVersionSubMenuTitle = "Letters And Version";
             o_LettersAndVersionSubMenu = new SubMenu(lettersAndVersionSubMenuTitle);
-            (o_LettersAndVersionSubMenu as IMenu).AddItem(new MenuItem("Show Version", i_MethodsHandler.ShowVersion));
+
             (o_LettersAndVersionSubMenu as IMenu).AddItem(
-                new MenuItem("Count Lowercase Letters", i_MethodsHandler.CountLowercaseLetters));
+                new MenuItem("Show Version", new Methods("ShowVersion")));
+            (o_LettersAndVersionSubMenu as IMenu).AddItem(
+                new MenuItem("Count Lowercase Letters", new Methods("CountLowercaseLetters")));
 
             string dateAndTimeMenuTitle = "Show Current Date/Time";
             o_DateAndTimeSubMenu = new SubMenu(dateAndTimeMenuTitle);
-            (o_DateAndTimeSubMenu as IMenu).AddItem(
-                new MenuItem("Show Current Date", i_MethodsHandler.ShowCurrentDate));
-            (o_DateAndTimeSubMenu as IMenu).AddItem(
-                new MenuItem("Show Current Time", i_MethodsHandler.ShowCurrentTime));
 
-            mainMenu.AddItem(o_LettersAndVersionSubMenu);
-            mainMenu.AddItem(o_DateAndTimeSubMenu);
+            (o_DateAndTimeSubMenu as IMenu).AddItem(
+                new MenuItem("Show Current Date", new Methods("ShowCurrentDate")));
+            (o_DateAndTimeSubMenu as IMenu).AddItem(
+                new MenuItem("Show Current Time", new Methods("ShowCurrentTime")));
+
+            mainMenu.AddSubMenu(o_LettersAndVersionSubMenu);
+            mainMenu.AddSubMenu(o_DateAndTimeSubMenu);
 
             return mainMenu;
         }
+
+
+
+
+
+        //private static Interfaces.MainMenu createInterfaceMainMenu(
+        //    out SubMenu o_LettersAndVersionSubMenu,
+        //    out SubMenu o_DateAndTimeSubMenu,
+        //    MethodsHandler i_MethodsHandler)
+        //{
+        //    string mainMenuTitle = "Interfaces Main Menu";
+        //    Interfaces.MainMenu mainMenu = new Interfaces.MainMenu(mainMenuTitle);
+
+        //    string lettersAndVersionSubMenuTitle = "Letters And Version";
+        //    o_LettersAndVersionSubMenu = new SubMenu(lettersAndVersionSubMenuTitle);
+
+        //    (o_LettersAndVersionSubMenu as IMenu).AddItem(new MenuItem("Show Version", i_MethodsHandler.ShowVersion));
+        //    (o_LettersAndVersionSubMenu as IMenu).AddItem(
+        //        new MenuItem("Count Lowercase Letters", i_MethodsHandler.CountLowercaseLetters));
+
+        //    string dateAndTimeMenuTitle = "Show Current Date/Time";
+        //    o_DateAndTimeSubMenu = new SubMenu(dateAndTimeMenuTitle);
+
+        //    (o_DateAndTimeSubMenu as IMenu).AddItem(
+        //        new MenuItem("Show Current Date", i_MethodsHandler.ShowCurrentDate));
+        //    (o_DateAndTimeSubMenu as IMenu).AddItem(
+        //        new MenuItem("Show Current Time", i_MethodsHandler.ShowCurrentTime));
+
+        //    mainMenu.AddItem(o_LettersAndVersionSubMenu);
+        //    mainMenu.AddItem(o_DateAndTimeSubMenu);
+
+        //    return mainMenu;
+        //}
 
         #endregion
 
@@ -99,31 +134,31 @@ namespace Ex04.Menus.Tests
             Events.SubMenu i_DateAndTimeSubMenu,
             MethodsHandler i_MethodsHandler)
         {
-            i_MainMenu.MainMenuOptionSelected += delegate(int i_Choice)
-                {
-                    handleMainMenuSelection(i_Choice, i_LettersAndVersionSubMenu, i_DateAndTimeSubMenu);
-                };
+            i_MainMenu.MainMenuOptionSelected += delegate (int i_Choice)
+            {
+                handleMainMenuSelection(i_Choice, i_LettersAndVersionSubMenu, i_DateAndTimeSubMenu);
+            };
 
-            i_LettersAndVersionSubMenu.SubMenuOptionSelected += delegate(int i_Choice)
-                {
-                    handleSubMenuSelection(i_Choice, i_MethodsHandler, i_LettersAndVersionSubMenu);
-                };
+            i_LettersAndVersionSubMenu.SubMenuOptionSelected += delegate (int i_Choice)
+            {
+                handleSubMenuSelection(i_Choice, i_MethodsHandler, i_LettersAndVersionSubMenu);
+            };
 
-            i_DateAndTimeSubMenu.SubMenuOptionSelected += delegate(int i_Choice)
-                {
-                    handleSubMenuSelection(i_Choice, i_MethodsHandler, i_DateAndTimeSubMenu);
-                };
+            i_DateAndTimeSubMenu.SubMenuOptionSelected += delegate (int i_Choice)
+            {
+                handleSubMenuSelection(i_Choice, i_MethodsHandler, i_DateAndTimeSubMenu);
+            };
         }
 
         private static void runApplication()
         {
-            while(s_IsRunning)
+            while (s_IsRunning)
             {
-                if(sr_MenuHistoryStack.Peek() is MainMenu currentMainMenu)
+                if (sr_MenuHistoryStack.Peek() is MainMenu currentMainMenu)
                 {
                     currentMainMenu.Show();
                 }
-                else if(sr_MenuHistoryStack.Peek() is Events.SubMenu currentSubMenu)
+                else if (sr_MenuHistoryStack.Peek() is Events.SubMenu currentSubMenu)
                 {
                     currentSubMenu.Show();
                 }
@@ -135,15 +170,15 @@ namespace Ex04.Menus.Tests
             Events.SubMenu i_LettersAndVersionSubMenu,
             Events.SubMenu i_DateAndTimeSubMenu)
         {
-            if(i_Choice == 1)
+            if (i_Choice == 1)
             {
                 sr_MenuHistoryStack.Push(i_LettersAndVersionSubMenu);
             }
-            else if(i_Choice == 2)
+            else if (i_Choice == 2)
             {
                 sr_MenuHistoryStack.Push(i_DateAndTimeSubMenu);
             }
-            else if(i_Choice == 0)
+            else if (i_Choice == 0)
             {
                 Console.WriteLine("Exiting application...");
                 s_IsRunning = false;
@@ -159,32 +194,32 @@ namespace Ex04.Menus.Tests
             MethodsHandler i_MethodsHandler,
             Events.SubMenu i_CurrentSubMenu)
         {
-            if(i_Choice == 0)
+            if (i_Choice == 0)
             {
                 sr_MenuHistoryStack.Pop();
             }
-            else if(i_CurrentSubMenu == null)
+            else if (i_CurrentSubMenu == null)
             {
                 Console.WriteLine("Invalid sub-menu. Please try again.");
             }
-            else if(i_CurrentSubMenu.m_SubMenuTitle == "Letters And Version")
+            else if (i_CurrentSubMenu.m_SubMenuTitle == "Letters And Version")
             {
-                if(i_Choice == 1)
+                if (i_Choice == 1)
                 {
                     i_MethodsHandler.ShowVersion();
                 }
-                else if(i_Choice == 2)
+                else if (i_Choice == 2)
                 {
                     i_MethodsHandler.CountLowercaseLetters();
                 }
             }
-            else if(i_CurrentSubMenu.m_SubMenuTitle == "Show Current Date/Time")
+            else if (i_CurrentSubMenu.m_SubMenuTitle == "Show Current Date/Time")
             {
-                if(i_Choice == 1)
+                if (i_Choice == 1)
                 {
                     i_MethodsHandler.ShowCurrentDate();
                 }
-                else if(i_Choice == 2)
+                else if (i_Choice == 2)
                 {
                     i_MethodsHandler.ShowCurrentTime();
                 }
