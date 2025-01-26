@@ -1,9 +1,44 @@
-﻿using System;
+﻿using Ex04.Menus.Interfaces;
+using System;
 
 namespace Ex04.Menus.Tests
 {
-    public class MethodsHandler
+    public class MethodsHandler : IMethods
     {
+        public string m_MethodName { get; }
+
+        public MethodsHandler(string i_MethodName) 
+        {
+            m_MethodName = i_MethodName;
+        }
+
+        public MethodsHandler()
+        {
+            
+        }
+
+        public void Execute()
+        {
+            switch (m_MethodName)
+            {
+                case "ShowVersion":
+                    ShowVersion();
+                    break;
+                case "CountLowercaseLetters":
+                    CountLowercaseLetters();
+                    break;
+                case "ShowCurrentDate":
+                    ShowCurrentDate();
+                    break;
+                case "ShowCurrentTime":
+                    ShowCurrentTime();
+                    break;
+                default:
+                    Console.WriteLine("Method not implemented.");
+                    break;
+            }
+        }
+
         public void ShowVersion()
         {
             Console.WriteLine("App version 25.1.4.5480");

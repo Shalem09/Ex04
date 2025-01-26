@@ -60,17 +60,17 @@ namespace Ex04.Menus.Tests
             o_LettersAndVersionSubMenu = new Interfaces.SubMenu(lettersAndVersionSubMenuTitle);
 
             (o_LettersAndVersionSubMenu as IMenu).AddItem(
-                new MenuItem("Show Version", new Methods("ShowVersion")));
+                new MenuItem("Show Version", new MethodsHandler("ShowVersion")));
             (o_LettersAndVersionSubMenu as IMenu).AddItem(
-                new MenuItem("Count Lowercase Letters", new Methods("CountLowercaseLetters")));
+                new MenuItem("Count Lowercase Letters", new MethodsHandler("CountLowercaseLetters")));
 
             string dateAndTimeMenuTitle = "Show Current Date/Time";
             o_DateAndTimeSubMenu = new Interfaces.SubMenu(dateAndTimeMenuTitle);
 
             (o_DateAndTimeSubMenu as IMenu).AddItem(
-                new MenuItem("Show Current Date", new Methods("ShowCurrentDate")));
+                new MenuItem("Show Current Date", new MethodsHandler("ShowCurrentDate")));
             (o_DateAndTimeSubMenu as IMenu).AddItem(
-                new MenuItem("Show Current Time", new Methods("ShowCurrentTime")));
+                new MenuItem("Show Current Time", new MethodsHandler("ShowCurrentTime")));
 
             mainMenu.AddSubMenu(o_LettersAndVersionSubMenu);
             mainMenu.AddSubMenu(o_DateAndTimeSubMenu);
